@@ -1,50 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context="org.androidtown.myapplication.ProfileFragment">
+    tools:context="org.androidtown.myapplication.MainActivity">
 
     <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:id="@+id/ivUser"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/tvTitle"
-        android:layout_marginTop="20dp"
         android:background="#eeeeee"
         android:clickable="true"
-
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/tvTitle"
         />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:hint="Name"
+        android:layout_marginTop="30dp"
+
+        android:id="@+id/txtName"
+        android:layout_below="@+id/ivUser"
+        android:layout_alignLeft="@+id/ivUser"
+        android:layout_alignStart="@+id/ivUser" />
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:hint="State Message"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtState"
+        android:layout_below="@+id/txtName"
+        android:layout_alignLeft="@+id/txtName"
+        android:layout_alignStart="@+id/txtName" />
 
     <ProgressBar
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="120dp"
-        android:id="@+id/pbLogin"/>
+        android:id="@+id/pbLogin"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/txtState"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Profile"
-        android:layout_centerHorizontal="true"
-        android:textSize="20sp"
+        android:text="PROFILE"
+        android:textSize="35sp"
         android:textStyle="bold"
-        android:layout_marginTop="10dp"
         android:id="@+id/tvTitle"
-        />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnLogout"
-        android:text="로그아웃"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="50dp"
-        />
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
 
 
+    
 </RelativeLayout>
