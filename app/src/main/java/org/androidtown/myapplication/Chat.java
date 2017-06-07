@@ -4,7 +4,7 @@ package org.androidtown.myapplication;
  * Created by Avilrus on 2017-04-03.
  */
 
-public class Chat {
+public class Chat{
 
     public String email;
 
