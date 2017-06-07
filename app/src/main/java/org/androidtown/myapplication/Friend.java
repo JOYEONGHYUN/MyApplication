@@ -2,9 +2,7 @@ package org.androidtown.myapplication;
 public class Friend {
 
     public String email;
-
     public String photo;
-
     public String key;
 
     public Friend() {
