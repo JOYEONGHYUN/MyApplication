@@ -9,7 +9,6 @@ import android.view.ViewGroup;
 /**
  * Created by Avilrus on 2017-04-03.
  */
-
 public class MainFragment extends Fragment{
 
 
