@@ -3,7 +3,6 @@ package org.androidtown.myapplication;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -13,7 +12,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class TabActivity extends AppCompatActivity {
-
     private TextView mTextMessage;
     Fragment fragment;
     long lastPressed;
